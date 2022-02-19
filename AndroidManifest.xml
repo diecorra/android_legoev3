@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.developers.legoapp"
+    android:versionCode="203"
+    android:versionName="2.0.3" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="18" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <intent-filter>
+        <action android:name="android.intent.action.SEND" />
+
+        <category android:name="android.intent.category.DEFAULT" />
+
+        <data android:mimeType="image/*" />
+    </intent-filter>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.developers.legoapp.MainActivity"
+            android:icon="@drawable/ic_launcher"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.developers.legoapp.CarloAntiActivity"
+            android:label="SITO WEB I.S. CARLO ANTI" />
+        <activity
+            android:name="com.developers.legoapp.LezioniRoboticaActivity"
+            android:label="Lezioni di Robotica Educativa" />
+        <activity
+            android:name="com.developers.legoapp.Lezione1Activity"
+            android:label="Livello 1" />
+        <activity
+            android:name="com.developers.legoapp.Lezione2Activity"
+            android:label="Livello 2" />
+        <activity
+            android:name="com.developers.legoapp.Lezione3Activity"
+            android:label="Livello 3" />
+        <activity
+            android:name="com.developers.legoapp.Lezione4Activity"
+            android:label="Livello 4" />
+        <activity
+            android:name="com.developers.legoapp.Lezione5Activity"
+            android:label="Livello 5" />
+        <activity
+            android:name="com.developers.legoapp.RoboticaActivity"
+            android:label="SITO WEB ROBOTICA @ANTI" />
+        <activity
+            android:name="com.developers.legoapp.RicercaActivity"
+            android:label="RICERCA FOTO SET LEGO®" />
+        <activity
+            android:name="com.developers.legoapp.NuovaRicercaActivity"
+            android:label="Robot n°" />
+        <activity
+            android:name="com.developers.legoapp.GattoNeroActivity"
+            android:label="Gatto Nero" />
+        <activity
+            android:name="com.developers.legoapp.AltalenaActivity"
+            android:label="Altalena" />
+        <activity
+            android:name="com.developers.legoapp.RallyActivity"
+            android:label="Macchina Rally" />
+        <activity
+            android:name="com.developers.legoapp.BiciActivity"
+            android:label="Bicicletta" />
+        <activity
+            android:name="com.developers.legoapp.CatapultaActivity"
+            android:label="Catapulta" />
+        <activity
+            android:name="com.developers.legoapp.SnoopyActivity"
+            android:label="Snoopy" />
+        <activity
+            android:name="com.developers.legoapp.GuidoActivity"
+            android:label="Guido" />
+        <activity
+            android:name="com.developers.legoapp.GruActivity"
+            android:label="Gru" />
+        <activity
+            android:name="com.developers.legoapp.DondoloActivity"
+            android:label="Dondolo" />
+    </application>
+
+</manifest>
